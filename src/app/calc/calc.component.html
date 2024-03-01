@@ -2,26 +2,12 @@
     <input type="number" [(ngModel)]="num1" name="num1">
     <input type="number" [(ngModel)]="num2" name="num2">
     <button (click)="calc()">Somar</button>
+    <button (click)="calc2()">Subtrair</button>
+    <button (click)="calc3()">Multiplicar</button>
+    <button (click)="calc4()">Divisão</button>
+    {{divisao}}
+    {{multiplicacao}}
+    {{subtracao}}
     {{soma}}
 </form>
 
-<form>
-    <input type="number" [(ngModel)]="num3" name="num3">
-    <input type="number" [(ngModel)]="num4" name="num4">
-    <button (click)="calc2()">Subtrair</button>
-    {{subtracao}}
-</form>
-
-<form>
-    <input type="number" [(ngModel)]="num5" name="num5">
-    <input type="number" [(ngModel)]="num6" name="num6">
-    <button (click)="calc3()">Multiplicar</button>
-    {{multiplicacao}}
-</form>
-
-<form>
-    <input type="number" [(ngModel)]="num7" name="num7">
-    <input type="number" [(ngModel)]="num8" name="num8">
-    <button (click)="calc4()">Divisão</button>
-    {{divisao}}
-</form>

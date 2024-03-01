@@ -5,14 +5,17 @@ form {
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   max-width: 400px;
   margin: 20px auto;
+
 }
 
 form input[type="number"],
 form button {
-  padding: 10px 20px;
+  padding: 10px 50px;
   margin: 10px 0;
   border: none;
   border-radius: 4px;
+  display: flexbox;
+
   background-color: #ddd;
   color: #333;
   cursor: pointer;
@@ -22,10 +25,12 @@ form button {
 form input[type="number"]:focus,
 form button:focus {
   outline: none;
+
 }
 
 form button:hover {
   background-color: blue;
   color: #fff;
+
 
 }
